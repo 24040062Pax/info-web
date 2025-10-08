@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/faviconjs.png">
+    <title>InfoTec</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="contenedor">
+            <nav class="navegacion">
+                <a href="#" class="logo">Info<span>Tec</span></a>
+                <div class="enlaces-navegacion">
+                    <a href="#introduccion">Introducción</a>
+                    <a href="#caracteristicas">Características</a>
+                    <a href="#elementos">Elementos</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Principal -->
+    <section class="principal">
+        <div class="contenido-principal">
+            <h1>JavaScript</h1>
+            <p>"El lenguaje de programación que impulsa la web moderna"</p>
+            <div class="botones-principales">
+                <button class="boton-principal" onclick="location.href='#introduccion'">Aprender JS</button>
+                <button class="boton-principal" onclick="location.href='#elementos'">Ver Elementos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Introducción -->
+    <section class="sobre" id="introduccion">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Introducción a JavaScript</h2>
+            <div class="contenido-sobre">
+                <div class="texto-sobre">
+                    <h3>¿Qué es JavaScript?</h3>
+                    <p>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
+                    <p>Se utiliza principalmente del lado del cliente, implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas, aunque existe una forma de JavaScript del lado del servidor.</p>
+                    <p>JavaScript se diseñó con una sintaxis similar a C, aunque adopta nombres y convenciones del lenguaje de programación Java. Sin embargo, Java y JavaScript tienen semánticas y propósitos diferentes.</p>
+                </div>
+            </div>
+            
+            <!-- Cards de Características -->
+            <div class="tipos-amor" id="caracteristicas">
+                <div class="tipo-amor agape">
+                    <h4>Lenguaje Interpretado</h4>
+                    <p>JavaScript es un lenguaje interpretado, lo que significa que no necesita compilación. Los navegadores web interpretan el código directamente, facilitando el desarrollo y la depuración.</p>
+                </div>
+                <div class="tipo-amor eros">
+                    <h4>Orientado a Objetos</h4>
+                    <p>JavaScript utiliza un modelo de objetos basado en prototipos, en lugar del modelo basado en clases más común. Los objetos pueden heredar propiedades directamente de otros objetos.</p>
+                </div>
+            </div>
+            
+            <div class="contenido-sobre" style="margin-top: 60px;">
+                <div class="texto-sobre">
+                    <h3>Historia de JavaScript</h3>
+                    <p>JavaScript fue creado por Brendan Eich en 1995 mientras trabajaba en Netscape Communications Corporation. Inicialmente se llamó Mocha, luego LiveScript, y finalmente JavaScript.</p>
+                    <p>Fue influenciado por muchos lenguajes como Self, Scheme, Java y C. A pesar del nombre, JavaScript no está relacionado con Java, aunque su sintaxis es similar.</p>
+                    <p>En 1997, JavaScript fue estandarizado por ECMA International como ECMAScript, lo que permitió su evolución controlada y su adopción generalizada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Elementos de JavaScript -->
+    <section class="elementos" id="elementos">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Elementos de JavaScript</h2>
+            <div class="contenedor-cards">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-icono">
+                    </div>
+                    <h3>Variables</h3>
+                    <p>Las variables se utilizan para almacenar valores de datos. En JavaScript puedes usar var, let y const para declarar variables.</p>
+                    <div class="card-codigo">
+                        <code>let nombre = "Juan";<br>const edad = 30;</code>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-icono">
+                    </div>
+                    <h3>Tipos de Datos</h3>
+                    <p>JavaScript tiene tipos de datos primitivos y objetos. Los primitivos incluyen string, number, boolean, null, undefined y symbol.</p>
+                    <div class="card-codigo">
+                        <code>let texto = "Hola";<br>let numero = 42;<br>let booleano = true;</code>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-icono">
+                    </div>
+                    <h3>Operadores</h3>
+                    <p>JavaScript incluye operadores aritméticos, de asignación, comparación, lógicos, bit a bit, de cadena y ternarios.</p>
+                    <div class="card-codigo">
+                        <code>let suma = 5 + 3;<br>let mayor = 10 > 5;<br>let resultado = (edad >= 18) ? "Adulto" : "Menor";</code>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-icono">
+                    </div>
+                    <h3>Estructuras de Control</h3>
+                    <p>Permiten controlar el flujo de ejecución del código. Incluyen if/else, switch, for, while, do-while y try/catch.</p>
+                    <div class="card-codigo">
+                        <code>if (condicion) {<br>&nbsp;&nbsp;// código<br>} else {<br>&nbsp;&nbsp;// otro código<br>}</code>
+                    </div>
+                </div>
+                
+                <!-- Card 5 -->
+                <div class="card">
+                    <div class="card-icono">
+                    </div>
+                    <h3>Funciones</h3>
+                    <p>Las funciones son bloques de código diseñados para realizar una tarea particular. Pueden recibir parámetros y devolver valores.</p>
+                    <div class="card-codigo">
+                        <code>function sumar(a, b) {<br>&nbsp;&nbsp;return a + b;<br>}</code>
+                    </div>
+                </div>
+                
+                <!-- Card 6 -->
+                <div class="card">
+                    <div class="card-icono">
+                    </div>
+                    <h3>Objetos</h3>
+                    <p>Los objetos son colecciones de propiedades, donde cada propiedad es una asociación entre un nombre (clave) y un valor.</p>
+                    <div class="card-codigo">
+                        <code>let persona = {<br>&nbsp;&nbsp;nombre: "Aren",<br>&nbsp;&nbsp;edad: 28<br>};</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="contenedor">
+            <div class="contenido-pie">
+                <div class="seccion-pie">
+                    <h3>InfoTec</h3>
+                    <p>Recursos educativos sobre tecnologías web desde 2023. Aprende JavaScript y otras tecnologías modernas.</p>
+                </div>
+                <div class="seccion-pie">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="enlaces-pie">
+                        <li><a href="#introduccion">Introducción</a></li>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#elementos">Elementos</a></li>
+                        <li><a href="#">Documentación</a></li>
+                    </ul>
+                </div>
+                <div class="seccion-pie">
+                    <h3>Contacto</h3>
+                    <ul class="enlaces-pie">
+                        <li><a href="mailto:info@infotec.com">info@infotec.com</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Soporte</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="derechos">
+                <p>&copy; 2023 InfoTec - JavaScript. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Desplazamiento suave para los enlaces internos
+        document.querySelectorAll('a[href^="#"]').forEach(enlace => {
+            enlace.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const idObjetivo = this.getAttribute('href');
+                if(idObjetivo === '#') return;
+                
+                const elementoObjetivo = document.querySelector(idObjetivo);
+                if(elementoObjetivo) {
+                    window.scrollTo({
+                        top: elementoObjetivo.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
